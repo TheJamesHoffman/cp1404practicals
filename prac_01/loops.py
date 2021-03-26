@@ -5,7 +5,7 @@ for i in range(1, 21, 2):
 
 
 
-for i in range(0,101, 10):
+for i in range(0, 101, 10):
     print(i, end=' ')
     print()
 

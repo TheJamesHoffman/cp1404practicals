@@ -1,5 +1,5 @@
 # Question 1
-"""
+
 output_file = "name.txt"
 out_file = open(output_file, 'w')
 username = input("Please enter your name: ")
@@ -11,7 +11,7 @@ out_file = open(output_file, "r")
 name_str = out_file.readline()
 print("Your name is {}".format(name_str))
 out_file.close()
-"""
+
 # Question 3
 file_numbers = open("numbers.txt")
 number1 = int(file_numbers.readline())
